@@ -8,6 +8,15 @@
 
 Полная логика агента описана в [`instructions.md`](instructions.md). Агент работает по методологии, показывает расчёты и всегда оставляет решение за человеком.
 
+## Методология
+
+Подключи к агенту справочные документы:
+
+- [`people-os.md`](../../methodology/ru/people-os.md)
+- [`ai-adoption-scan.md`](../../methodology/ru/ai-adoption-scan.md)
+
+**English:** [`instructions.en.md`](instructions.en.md) · Claude Skill: [`skills-en/people-os-architect-en`](../../skills-en/people-os-architect-en)
+
 ## Примеры запросов
 
 - Проведи аудит нашей HR-системы. Нас 40 человек, есть только оргструктура и положение о премиях.
@@ -16,7 +25,7 @@
 
 ## Какие данные нужны
 
-Подробно описано в [`knowledge/README.md`](knowledge/README.md). В исходной версии агента подключались такие документы:
+Подробно описано в [`knowledge/README.md`](knowledge/README.md). Данные компании, которые подключались в исходной версии агента:
 
 - people_os_company.md — описание компании и текущих HR-процессов
 
