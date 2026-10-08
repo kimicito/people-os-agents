@@ -2,7 +2,14 @@
 
 Подготовь документы своей компании (.md, .pdf, .docx, .csv) и подключи их к агенту вместе с `instructions.md`.
 
-**Что нужно агенту:**
+**Методология (уже готова):**
+
+- [`recruitment-funnel.md`](../../../methodology/ru/recruitment-funnel.md)
+- [`structured-interview.md`](../../../methodology/ru/structured-interview.md)
+- [`evp.md`](../../../methodology/ru/evp.md)
+- [`competency-model.md`](../../../methodology/ru/competency-model.md)
+
+**Данные компании, которые нужно подготовить:**
 
 1. Модель компетенций по уровням (Junior / Middle / Senior / Lead) с поведенческими индикаторами.
 2. Данные воронки: по каждой вакансии число кандидатов на этапах отклик → скрининг → интервью → тестовое → оффер → выход, даты и причины отказов.
