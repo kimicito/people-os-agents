@@ -8,6 +8,17 @@
 
 Полная логика агента описана в [`instructions.md`](instructions.md). Агент работает по методологии, показывает расчёты и всегда оставляет решение за человеком.
 
+## Методология
+
+Подключи к агенту справочные документы:
+
+- [`recruitment-funnel.md`](../../methodology/ru/recruitment-funnel.md)
+- [`structured-interview.md`](../../methodology/ru/structured-interview.md)
+- [`evp.md`](../../methodology/ru/evp.md)
+- [`competency-model.md`](../../methodology/ru/competency-model.md)
+
+**English:** [`instructions.en.md`](instructions.en.md) · Claude Skill: [`skills-en/recruiting-agent-en`](../../skills-en/recruiting-agent-en)
+
 ## Примеры запросов
 
 - Вот выгрузка воронки по вакансии Sales Manager. Где узкое место?
@@ -16,7 +27,7 @@
 
 ## Какие данные нужны
 
-Подробно описано в [`knowledge/README.md`](knowledge/README.md). В исходной версии агента подключались такие документы:
+Подробно описано в [`knowledge/README.md`](knowledge/README.md). Данные компании, которые подключались в исходной версии агента:
 
 - competency_model.md — модель компетенций по уровням
 - recruiting_funnel_data.md — данные воронки
