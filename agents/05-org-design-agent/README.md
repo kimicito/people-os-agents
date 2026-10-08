@@ -8,6 +8,14 @@
 
 Полная логика агента описана в [`instructions.md`](instructions.md). Агент работает по методологии, показывает расчёты и всегда оставляет решение за человеком.
 
+## Методология
+
+Подключи к агенту справочные документы:
+
+- [`span-of-control.md`](../../methodology/ru/span-of-control.md)
+
+**English:** [`instructions.en.md`](instructions.en.md) · Claude Skill: [`skills-en/org-design-agent-en`](../../skills-en/org-design-agent-en)
+
 ## Примеры запросов
 
 - Посчитай span of control по этой оргструктуре и отметь флаги.
@@ -15,7 +23,7 @@
 
 ## Какие данные нужны
 
-Подробно описано в [`knowledge/README.md`](knowledge/README.md). В исходной версии агента подключались такие документы:
+Подробно описано в [`knowledge/README.md`](knowledge/README.md). Данные компании, которые подключались в исходной версии агента:
 
 - org_structure.md — оргструктура
 
