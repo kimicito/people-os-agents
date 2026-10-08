@@ -8,6 +8,15 @@
 
 Полная логика агента описана в [`instructions.md`](instructions.md). Агент работает по методологии, показывает расчёты и всегда оставляет решение за человеком.
 
+## Методология
+
+Подключи к агенту справочные документы:
+
+- [`total-rewards.md`](../../methodology/ru/total-rewards.md)
+- [`sales-comp-plan.md`](../../methodology/ru/sales-comp-plan.md)
+
+**English:** [`instructions.en.md`](instructions.en.md) · Claude Skill: [`skills-en/rewards-agent-en`](../../skills-en/rewards-agent-en)
+
 ## Примеры запросов
 
 - Проверь нашу схему мотивации продавцов и посчитай доход при 70/100/130% плана.
@@ -16,7 +25,7 @@
 
 ## Какие данные нужны
 
-Подробно описано в [`knowledge/README.md`](knowledge/README.md). В исходной версии агента подключались такие документы:
+Подробно описано в [`knowledge/README.md`](knowledge/README.md). Данные компании, которые подключались в исходной версии агента:
 
 - rewards_model.md — схема вознаграждения
 
