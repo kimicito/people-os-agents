@@ -8,6 +8,15 @@
 
 Полная логика агента описана в [`instructions.md`](instructions.md). Агент работает по методологии, показывает расчёты и всегда оставляет решение за человеком.
 
+## Методология
+
+Подключи к агенту справочные документы:
+
+- [`competency-model.md`](../../methodology/ru/competency-model.md)
+- [`nine-box.md`](../../methodology/ru/nine-box.md)
+
+**English:** [`instructions.en.md`](instructions.en.md) · Claude Skill: [`skills-en/talent-agent-en`](../../skills-en/talent-agent-en)
+
 ## Примеры запросов
 
 - Перепиши нашу модель компетенций для продавцов в поведенческие индикаторы.
@@ -16,7 +25,7 @@
 
 ## Какие данные нужны
 
-Подробно описано в [`knowledge/README.md`](knowledge/README.md). В исходной версии агента подключались такие документы:
+Подробно описано в [`knowledge/README.md`](knowledge/README.md). Данные компании, которые подключались в исходной версии агента:
 
 - competency_model.md — модель компетенций
 - ninebox_team.md — данные команды для калибровки
