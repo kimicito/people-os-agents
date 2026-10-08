@@ -8,6 +8,15 @@
 
 Полная логика агента описана в [`instructions.md`](instructions.md). Агент работает по методологии, показывает расчёты и всегда оставляет решение за человеком.
 
+## Методология
+
+Подключи к агенту справочные документы:
+
+- [`onboarding-30-60-90.md`](../../methodology/ru/onboarding-30-60-90.md)
+- [`disc.md`](../../methodology/ru/disc.md)
+
+**English:** [`instructions.en.md`](instructions.en.md) · Claude Skill: [`skills-en/onboarding-agent-en`](../../skills-en/onboarding-agent-en)
+
 ## Примеры запросов
 
 - Составь план 30-60-90 для нового Sales Manager.
@@ -16,7 +25,7 @@
 
 ## Какие данные нужны
 
-Подробно описано в [`knowledge/README.md`](knowledge/README.md). В исходной версии агента подключались такие документы:
+Подробно описано в [`knowledge/README.md`](knowledge/README.md). Данные компании, которые подключались в исходной версии агента:
 
 - disc_guide.md — справочник DISC: маркеры и форматы онбординга
 - candidate_chat.md — переписка с кандидатом (с его согласия)
